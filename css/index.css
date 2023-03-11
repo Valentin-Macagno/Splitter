@@ -192,3 +192,17 @@ input {
 .alert {
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card-right {
+        width: 100%;
+    }
+
+    .card-left {
+        width: 100%;
+    }
+}
