@@ -1,4 +1,4 @@
-@import "/css/variables.css";
+@import "css/variables.css";
 
 body {
     background-color: var(--light-cyan);
