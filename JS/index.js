@@ -20,8 +20,8 @@ function tipCalc(tip) {
 }
 
 function reset () {
-    tipTotal.innerText = "$0.00";
-    peopleTotal.innerText = "$0.00";
+    tipTotal.innerText = "";
+    peopleTotal.innerText = "";
     money.value = money.placeholder;
     people.value = people.placeholder;
 }
